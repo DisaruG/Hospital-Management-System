@@ -28,7 +28,7 @@ public class PatientDAOImpl implements PatientDAO {
             existingPatient.setName(patient.getName());
             existingPatient.setContactInformation(patient.getContactInformation());
             existingPatient.setAddress(patient.getAddress());
-            existingPatient.setMedicalHistory(patient.getMedicalHistory());
+            existingPatient.setMedicalHistroy(patient.getMedicalHistroy());
             existingPatient.setCurrentHealthStatus(patient.getCurrentHealthStatus());
         }
     }
