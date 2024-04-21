@@ -4,6 +4,11 @@ public class Patient extends Person {
     private String medicalHistroy;
     private String currentHealthStatus;
 
+    public Patient(String medicalHistroy, String currentHealthStatus) {
+        this.medicalHistroy = medicalHistroy;
+        this.currentHealthStatus = currentHealthStatus;
+    }
+
     public String getMedicalHistroy() {
         return medicalHistroy;
     }
